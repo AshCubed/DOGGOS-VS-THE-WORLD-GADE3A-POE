@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e05c2531aee6b4468ecad6f78af40fb, type: 3}
+  m_Name: Water Bottle
+  m_EditorClassIdentifier: 
+  itemName: Water Bottle
+  itemType: 0
+  itemSpriteAnimation: {fileID: 8836297739752433556, guid: 6f0f18033d35268438dcdda9775306ef,
+    type: 3}
+  healAmount: 20
+  buffAmount: 0
+  debuffAmount: 0
+  amntOfTurns: 0
+  pickUpItemSprite: {fileID: 0}
+  toolTipText: 'Water Bottle
+
+    Heal for 20 HP'

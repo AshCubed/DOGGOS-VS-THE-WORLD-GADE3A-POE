@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9da77ff7c1fe0a4aac189f1367c6d37, type: 3}
+  m_Name: Thunder
+  m_EditorClassIdentifier: 
+  attackName: Thunder
+  damageDealt: 50
+  toolTipText: 'Thunder
+
+    Deal 50dmg'
+  attackSprite: {fileID: 7093600103491816161, guid: c7b62d3cce156a145a4430c1118f9136,
+    type: 3}
+  attackHitSprite: {fileID: 0}
+  attackType: 2

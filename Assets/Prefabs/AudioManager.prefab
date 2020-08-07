@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8318099967007251161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8318099967007251167}
+  - component: {fileID: 8318099967007251160}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8318099967007251167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8318099967007251161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8318099967007251160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8318099967007251161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e50c06a0671da4f943ac55030f20a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Medieval Ambiance
+    clip: {fileID: 8300000, guid: 498aaed4e0d227b4885eef0ab72de71d, type: 3}
+    volume: 0.038
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Crowd Cheering
+    clip: {fileID: 8300000, guid: 14891a618228b4148a234a0602684b00, type: 3}
+    volume: 0.038
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Doggo_Theme
+    clip: {fileID: 8300000, guid: 57d9e7ef81ec1984db21e3b24d6cee70, type: 3}
+    volume: 0.038
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Healing
+    clip: {fileID: 8300000, guid: 358b9ade71e6b2a4885a13d11f981b81, type: 3}
+    volume: 0.038
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BattleMusic
+    clip: {fileID: 8300000, guid: 91c15e3f197ca77458bc2a1d2a74b8c9, type: 3}
+    volume: 0.06
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: FireBall
+    clip: {fileID: 8300000, guid: 61ae35ebc5621554abd09a5b31e040fd, type: 3}
+    volume: 0.156
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FireBallHit
+    clip: {fileID: 8300000, guid: 14e740b72e83e4942b7f5dbe13f9236d, type: 3}
+    volume: 0.038
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FireAOE
+    clip: {fileID: 8300000, guid: cd7057cd22d705c4d9a31242647df1f6, type: 3}
+    volume: 0.038
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossMusic
+    clip: {fileID: 8300000, guid: c1e29bdc4c18ef940ac6a05c3e92759c, type: 3}
+    volume: 0.038
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Poison
+    clip: {fileID: 8300000, guid: 9f9791c4558630341a00e853fad1f83c, type: 3}
+    volume: 0.038
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: QuestAccept
+    clip: {fileID: 8300000, guid: e067cc3c21e16134dad36b0267db5b06, type: 3}
+    volume: 0.038
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: QuestComplete
+    clip: {fileID: 8300000, guid: 646c78979f377e14dbe305b7644d93fa, type: 3}
+    volume: 0.038
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

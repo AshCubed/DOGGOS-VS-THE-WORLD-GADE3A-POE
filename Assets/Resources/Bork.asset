@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9da77ff7c1fe0a4aac189f1367c6d37, type: 3}
+  m_Name: Bork
+  m_EditorClassIdentifier: 
+  attackName: Bork
+  damageDealt: 20
+  toolTipText: 'Bork
+
+    Deal 20 Damage'
+  attackSprite: {fileID: 5163887107235066780, guid: 57b52039fb9b8004bba60e62530a8f11,
+    type: 3}
+  attackHitSprite: {fileID: 6736951271573447945, guid: 661b56542954e8e43b499760d1e0ddd2,
+    type: 3}
+  attackType: 1

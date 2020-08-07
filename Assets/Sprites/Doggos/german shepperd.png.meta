@@ -1,0 +1,2420 @@
+fileFormatVersion: 2
+guid: d5cc943c2feb55946a6d548304bd0731
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4071919642075758379
+    second: german shepperd_0
+  - first:
+      213: 4706757700595710019
+    second: german shepperd_1
+  - first:
+      213: 8591758330980943553
+    second: german shepperd_2
+  - first:
+      213: 4520777137375885453
+    second: german shepperd_3
+  - first:
+      213: -1706598479727170122
+    second: german shepperd_4
+  - first:
+      213: -5118514216418121371
+    second: german shepperd_5
+  - first:
+      213: 8626673506641983963
+    second: german shepperd_6
+  - first:
+      213: 8822504138520311465
+    second: german shepperd_7
+  - first:
+      213: -7921310579096860177
+    second: german shepperd_8
+  - first:
+      213: 2066842403832223581
+    second: german shepperd_9
+  - first:
+      213: 8468909726498508063
+    second: german shepperd_10
+  - first:
+      213: -7550286106511251982
+    second: german shepperd_11
+  - first:
+      213: 7249170164295898812
+    second: german shepperd_12
+  - first:
+      213: -8371098104154070902
+    second: german shepperd_13
+  - first:
+      213: 2620928071032492420
+    second: german shepperd_14
+  - first:
+      213: -6666018547369427920
+    second: german shepperd_15
+  - first:
+      213: 4835538293508305062
+    second: german shepperd_16
+  - first:
+      213: 3000149856595234350
+    second: german shepperd_17
+  - first:
+      213: 5199807927063970463
+    second: german shepperd_18
+  - first:
+      213: -7283276018747847456
+    second: german shepperd_19
+  - first:
+      213: -651845805500480000
+    second: german shepperd_20
+  - first:
+      213: 760877870573533933
+    second: german shepperd_21
+  - first:
+      213: -1641772215890573359
+    second: german shepperd_22
+  - first:
+      213: -331788473382873297
+    second: german shepperd_23
+  - first:
+      213: -6867660253974204808
+    second: german shepperd_24
+  - first:
+      213: 4997000374590042626
+    second: german shepperd_25
+  - first:
+      213: 259786850461127402
+    second: german shepperd_26
+  - first:
+      213: 5129286240666317973
+    second: german shepperd_27
+  - first:
+      213: -8975545746452261714
+    second: german shepperd_28
+  - first:
+      213: 6288784071672194798
+    second: german shepperd_29
+  - first:
+      213: -805055770683750465
+    second: german shepperd_30
+  - first:
+      213: 4616693435517787992
+    second: german shepperd_31
+  - first:
+      213: 6788614885728780668
+    second: german shepperd_32
+  - first:
+      213: -6435446045008352797
+    second: german shepperd_33
+  - first:
+      213: 5740799242289798044
+    second: german shepperd_34
+  - first:
+      213: 6717648731571671569
+    second: german shepperd_35
+  - first:
+      213: -3174123939795474850
+    second: german shepperd_36
+  - first:
+      213: 2946940241697393796
+    second: german shepperd_37
+  - first:
+      213: 2475536616431952667
+    second: german shepperd_38
+  - first:
+      213: 2079082221354552835
+    second: german shepperd_39
+  - first:
+      213: 4083910497604388043
+    second: german shepperd_40
+  - first:
+      213: 6424761120204998596
+    second: german shepperd_41
+  - first:
+      213: -923245645803166966
+    second: german shepperd_42
+  - first:
+      213: -6987772109567685305
+    second: german shepperd_43
+  - first:
+      213: -7612458369539736324
+    second: german shepperd_44
+  - first:
+      213: 3946031980618759943
+    second: german shepperd_45
+  - first:
+      213: 4277582652940664736
+    second: german shepperd_46
+  - first:
+      213: -3964470459940185907
+    second: german shepperd_47
+  - first:
+      213: -2984946822431265259
+    second: german shepperd_48
+  - first:
+      213: 6912482761318987882
+    second: german shepperd_49
+  - first:
+      213: 1324360114615975364
+    second: german shepperd_50
+  - first:
+      213: 7550092842964745607
+    second: german shepperd_51
+  - first:
+      213: -6433752589971380777
+    second: german shepperd_52
+  - first:
+      213: 6074555051346000786
+    second: german shepperd_53
+  - first:
+      213: 6437118583495669119
+    second: german shepperd_54
+  - first:
+      213: -1341841571350285462
+    second: german shepperd_55
+  - first:
+      213: -5082679474511916836
+    second: german shepperd_56
+  - first:
+      213: -5589832251772740707
+    second: german shepperd_57
+  - first:
+      213: 3895599573148492962
+    second: german shepperd_58
+  - first:
+      213: -8736993427546958044
+    second: german shepperd_59
+  - first:
+      213: -1858261189324778517
+    second: german shepperd_60
+  - first:
+      213: 7647956568413277078
+    second: german shepperd_61
+  - first:
+      213: 7674295708874277424
+    second: german shepperd_62
+  - first:
+      213: -5778149843762239225
+    second: german shepperd_63
+  - first:
+      213: -637092417312314205
+    second: german shepperd_64
+  - first:
+      213: 6303724009724407248
+    second: german shepperd_65
+  - first:
+      213: -6214072896748580297
+    second: german shepperd_66
+  - first:
+      213: -615999632084551686
+    second: german shepperd_67
+  - first:
+      213: -7922653803626960060
+    second: german shepperd_68
+  - first:
+      213: -8240952373644083365
+    second: german shepperd_69
+  - first:
+      213: 3950552290341970283
+    second: german shepperd_70
+  - first:
+      213: 128040575647556277
+    second: german shepperd_71
+  - first:
+      213: 3377331620033750372
+    second: german shepperd_72
+  - first:
+      213: -4415186082426195337
+    second: german shepperd_73
+  - first:
+      213: -225432647515276594
+    second: german shepperd_74
+  - first:
+      213: 7828806003420494731
+    second: german shepperd_75
+  - first:
+      213: 2523780952138789327
+    second: german shepperd_76
+  - first:
+      213: -1288638564968762614
+    second: german shepperd_77
+  - first:
+      213: -6464277229207725151
+    second: german shepperd_78
+  - first:
+      213: -3037603188432770597
+    second: german shepperd_79
+  - first:
+      213: -7760582727647924593
+    second: german shepperd_80
+  - first:
+      213: 2845210796383076794
+    second: german shepperd_81
+  - first:
+      213: -7060159510920874254
+    second: german shepperd_82
+  - first:
+      213: -6201355301380741236
+    second: german shepperd_83
+  - first:
+      213: 6505306336627548396
+    second: german shepperd_84
+  - first:
+      213: -8547614917411059156
+    second: german shepperd_85
+  - first:
+      213: 8169748704433212357
+    second: german shepperd_86
+  - first:
+      213: -3912633130923140161
+    second: german shepperd_87
+  - first:
+      213: -7063093451088471808
+    second: german shepperd_88
+  - first:
+      213: 3644296191277039635
+    second: german shepperd_89
+  - first:
+      213: -1739528426721223007
+    second: german shepperd_90
+  - first:
+      213: 926096601099677327
+    second: german shepperd_91
+  - first:
+      213: -7508033390705747967
+    second: german shepperd_92
+  - first:
+      213: -3166812772706925478
+    second: german shepperd_93
+  - first:
+      213: -4501376861997871679
+    second: german shepperd_94
+  - first:
+      213: 3578247278480930572
+    second: german shepperd_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: german shepperd_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 336
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d08324d8a2ad77c0800000000000000
+      internalID: -4071919642075758379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 336
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34877d3f033c15140800000000000000
+      internalID: 4706757700595710019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 336
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c64f125eae0c3770800000000000000
+      internalID: 8591758330980943553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 336
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d883ff5bad60dbe30800000000000000
+      internalID: 4520777137375885453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 336
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bde3a189b1f058e0800000000000000
+      internalID: -1706598479727170122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 336
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5696c90707267f8b0800000000000000
+      internalID: -5118514216418121371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 336
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd93ba429d918b770800000000000000
+      internalID: 8626673506641983963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 336
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6bae535c4df6a70800000000000000
+      internalID: 8822504138520311465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 336
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe943694ff9d11290800000000000000
+      internalID: -7921310579096860177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_9
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 336
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5752273736eeac10800000000000000
+      internalID: 2066842403832223581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_10
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 336
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d4bcaa68c978570800000000000000
+      internalID: 8468909726498508063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_11
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 336
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f564dc0acef73790800000000000000
+      internalID: -7550286106511251982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6973f4bd93a9460800000000000000
+      internalID: 7249170164295898812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8063f150a2e3db80800000000000000
+      internalID: -8371098104154070902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481ddbfb1386f5420800000000000000
+      internalID: 2620928071032492420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c31e1037b8d73a0800000000000000
+      internalID: -6666018547369427920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a07c5a45784b1340800000000000000
+      internalID: 4835538293508305062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e4c4b266ca2a920800000000000000
+      internalID: 3000149856595234350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9288e882cd692840800000000000000
+      internalID: 5199807927063970463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_19
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecc965ac0b9cea90800000000000000
+      internalID: -7283276018747847456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006c0da81bd24f6f0800000000000000
+      internalID: -651845805500480000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 288
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deabdf8546e2f8a00800000000000000
+      internalID: 760877870573533933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d78cbd3ed04739e0800000000000000
+      internalID: -1641772215890573359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_23
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 288
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27d17f2420456bf0800000000000000
+      internalID: -331788473382873297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 240
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e6ccba26b21b0a0800000000000000
+      internalID: -6867660253974204808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_25
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 240
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202feed8d59e85540800000000000000
+      internalID: 4997000374590042626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae29d0b93c2fa9300800000000000000
+      internalID: 259786850461127402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_27
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 240
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594f636e8a2ee2740800000000000000
+      internalID: 5129286240666317973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_28
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 240
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4d175b2b4707380800000000000000
+      internalID: -8975545746452261714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6e7253bcf364750800000000000000
+      internalID: 6288784071672194798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_30
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 240
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7440cba0ed3d4f0800000000000000
+      internalID: -805055770683750465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_31
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 240
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f5ae4283ac11040800000000000000
+      internalID: 4616693435517787992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c710bcc5541063e50800000000000000
+      internalID: 6788614885728780668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_33
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 240
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9a5142be3b0b6a0800000000000000
+      internalID: -6435446045008352797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_34
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 240
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bd38bae7a6baf40800000000000000
+      internalID: 5740799242289798044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_35
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 240
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112de230ee1e93d50800000000000000
+      internalID: 6717648731571671569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_36
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 192
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e566d6f081f33f3d0800000000000000
+      internalID: -3174123939795474850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_37
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 192
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c4da84982a5e820800000000000000
+      internalID: 2946940241697393796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_38
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 192
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1326eacf6fda5220800000000000000
+      internalID: 2475536616431952667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_39
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 192
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e0baec3426adc10800000000000000
+      internalID: 2079082221354552835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 192
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4c238c5f6fca830800000000000000
+      internalID: 4083910497604388043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_41
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 192
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c74f80f236592950800000000000000
+      internalID: 6424761120204998596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_42
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 192
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03e9790af8ff23f0800000000000000
+      internalID: -923245645803166966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_43
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 192
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d06d50a42760f90800000000000000
+      internalID: -6987772109567685305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_44
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 192
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc7228027d1b5690800000000000000
+      internalID: -7612458369539736324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_45
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 192
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fbc1ded2f13c630800000000000000
+      internalID: 3946031980618759943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_46
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 192
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afb6ed52c60d5b30800000000000000
+      internalID: 4277582652940664736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_47
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 192
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc85cb01f1f5bf8c0800000000000000
+      internalID: -3964470459940185907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_48
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 144
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ead8f0ea65396d0800000000000000
+      internalID: -2984946822431265259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_49
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 144
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68fd6092721eef50800000000000000
+      internalID: 6912482761318987882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_50
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 144
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd716ae182116210800000000000000
+      internalID: 1324360114615975364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_51
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 144
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78df126407157c860800000000000000
+      internalID: 7550092842964745607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_52
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 144
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5a10e5b18b6b6a0800000000000000
+      internalID: -6433752589971380777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_53
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 144
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b780482a72d4450800000000000000
+      internalID: 6074555051346000786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_54
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 144
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7533521f3d355950800000000000000
+      internalID: 6437118583495669119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_55
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 144
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6370d24332d06de0800000000000000
+      internalID: -1341841571350285462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_56
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 144
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd05c8672f1b679b0800000000000000
+      internalID: -5082679474511916836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_57
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 144
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b5017ee2dec62b0800000000000000
+      internalID: -5589832251772740707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_58
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 144
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4eda80c23ff0630800000000000000
+      internalID: 3895599573148492962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_59
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 144
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427142aa4c6ffb680800000000000000
+      internalID: -8736993427546958044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3d6663b412636e0800000000000000
+      internalID: -1858261189324778517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b83e57afff22a60800000000000000
+      internalID: 7647956568413277078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03281cc7943908a60800000000000000
+      internalID: 7674295708874277424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709a29fb453efcfa0800000000000000
+      internalID: -5778149843762239225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac210962d79827f0800000000000000
+      internalID: -637092417312314205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_65
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd69b996935b7750800000000000000
+      internalID: 6303724009724407248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7321becbf9d23c9a0800000000000000
+      internalID: -6214072896748580297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_67
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af734db29978377f0800000000000000
+      internalID: -615999632084551686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bea6477541d0290800000000000000
+      internalID: -7922653803626960060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_69
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f38068a7142ad80800000000000000
+      internalID: -8240952373644083365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_70
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61607c806e23d630800000000000000
+      internalID: 3950552290341970283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_71
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b22f44a934e6c100800000000000000
+      internalID: 128040575647556277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 48
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4656ecce631bede20800000000000000
+      internalID: 3377331620033750372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_73
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 48
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772fcb396ab1ab2c0800000000000000
+      internalID: -4415186082426195337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca7314933a1fdcf0800000000000000
+      internalID: -225432647515276594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_75
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 48
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bf251d49185ac60800000000000000
+      internalID: 7828806003420494731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_76
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 48
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc131278765460320800000000000000
+      internalID: 2523780952138789327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_77
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03fa2b7d06dd1ee0800000000000000
+      internalID: -1288638564968762614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 48
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab5d67fb164a46a0800000000000000
+      internalID: -6464277229207725151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_79
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 48
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9eed87ef348d5d0800000000000000
+      internalID: -3037603188432770597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e6384602fdc4490800000000000000
+      internalID: -7760582727647924593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_81
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 48
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1058d05283c7720800000000000000
+      internalID: 2845210796383076794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_82
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 48
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f637f5c456450e90800000000000000
+      internalID: -7060159510920874254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_83
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 48
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c872737a53c50f9a0800000000000000
+      internalID: -6201355301380741236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_84
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce068c585ad774a50800000000000000
+      internalID: 6505306336627548396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_85
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a42e21585c06980800000000000000
+      internalID: -8547614917411059156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_86
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb03f75927c06170800000000000000
+      internalID: 8169748704433212357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_87
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbd6eeb5e883b9c0800000000000000
+      internalID: -3912633130923140161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_88
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009db789de9dafd90800000000000000
+      internalID: -7063093451088471808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_89
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3108061e314239230800000000000000
+      internalID: 3644296191277039635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_90
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae5690cc14fbd7e0800000000000000
+      internalID: -1739528426721223007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_91
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e2e38b3f72adc00800000000000000
+      internalID: 926096601099677327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_92
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1085631196b1ec790800000000000000
+      internalID: -7508033390705747967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_93
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 0
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5442accf883d04d0800000000000000
+      internalID: -3166812772706925478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_94
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd4474e795e781c0800000000000000
+      internalID: -4501376861997871679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german shepperd_95
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c073d5001fc78a130800000000000000
+      internalID: 3578247278480930572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

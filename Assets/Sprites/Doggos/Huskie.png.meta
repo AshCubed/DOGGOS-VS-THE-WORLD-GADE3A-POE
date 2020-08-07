@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 1b2092a37afaa544593a0a8d33c2647d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7913294355151578211
+    second: Huskie_0
+  - first:
+      213: 4826663707551798534
+    second: Huskie_1
+  - first:
+      213: -2892566802682207054
+    second: Huskie_2
+  - first:
+      213: 6727214481999115671
+    second: Huskie_3
+  - first:
+      213: -1122927116335593499
+    second: Huskie_4
+  - first:
+      213: 680090024979282786
+    second: Huskie_5
+  - first:
+      213: 5590968750133820801
+    second: Huskie_6
+  - first:
+      213: 5670363731330103916
+    second: Huskie_7
+  - first:
+      213: -1460447646784618379
+    second: Huskie_8
+  - first:
+      213: -7624373528518152620
+    second: Huskie_9
+  - first:
+      213: 2899165178314306676
+    second: Huskie_10
+  - first:
+      213: 5224995096360413718
+    second: Huskie_11
+  - first:
+      213: 4155592786219092716
+    second: Huskie_12
+  - first:
+      213: 7443412746808473326
+    second: Huskie_13
+  - first:
+      213: 3529384354432103755
+    second: Huskie_14
+  - first:
+      213: 9000199822556333570
+    second: Huskie_15
+  - first:
+      213: 4362236485052318293
+    second: Huskie_16
+  - first:
+      213: -105631716105005372
+    second: Huskie_17
+  - first:
+      213: 5953228612780759455
+    second: Huskie_18
+  - first:
+      213: -2395552704592356700
+    second: Huskie_19
+  - first:
+      213: -6780050583647518650
+    second: Huskie_20
+  - first:
+      213: 934593865097531057
+    second: Huskie_21
+  - first:
+      213: 7281256308138089295
+    second: Huskie_22
+  - first:
+      213: 7907251249167169444
+    second: Huskie_23
+  - first:
+      213: -4214038160826875689
+    second: Huskie_24
+  - first:
+      213: -6733526579766722366
+    second: Huskie_25
+  - first:
+      213: -6159791956354446828
+    second: Huskie_26
+  - first:
+      213: -505656587254966063
+    second: Huskie_27
+  - first:
+      213: -3750321813025989341
+    second: Huskie_28
+  - first:
+      213: -228789098104390547
+    second: Huskie_29
+  - first:
+      213: 7814590096692368859
+    second: Huskie_30
+  - first:
+      213: 1140434930617265547
+    second: Huskie_31
+  - first:
+      213: -6422933807734437499
+    second: Huskie_32
+  - first:
+      213: 5354551527209065293
+    second: Huskie_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Huskie_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 256
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b161ed5b45e2290800000000000000
+      internalID: -7913294355151578211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 256
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60515eab111cbf240800000000000000
+      internalID: 4826663707551798534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 256
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b42a0581d98bd7d0800000000000000
+      internalID: -2892566802682207054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 256
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795bb67ddeddb5d50800000000000000
+      internalID: 6727214481999115671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 224
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7c92abcbf8a60f0800000000000000
+      internalID: -1122927116335593499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 224
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b3d22464a207900800000000000000
+      internalID: 680090024979282786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 224
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d390eb47c179d40800000000000000
+      internalID: 5590968750133820801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 224
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a703155cd21be40800000000000000
+      internalID: 5670363731330103916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57009506a927bbbe0800000000000000
+      internalID: -1460447646784618379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 192
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ea8c5eba8c03690800000000000000
+      internalID: -7624373528518152620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 192
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4743b968e57eb3820800000000000000
+      internalID: 2899165178314306676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 192
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a68bf5b59e28840800000000000000
+      internalID: 5224995096360413718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 160
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceac3cd2f91aba930800000000000000
+      internalID: 4155592786219092716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 160
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee63222d4705c4760800000000000000
+      internalID: 7443412746808473326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 160
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b453fb1fe54eaf030800000000000000
+      internalID: 3529384354432103755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 160
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2060103bd0227ec70800000000000000
+      internalID: 9000199822556333570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 128
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552cac598f6c98c30800000000000000
+      internalID: 4362236485052318293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 128
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6db8c8388b88ef0800000000000000
+      internalID: -105631716105005372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 128
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f991d7bb1ed1e9250800000000000000
+      internalID: 5953228612780759455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 128
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aadb02e18941ced0800000000000000
+      internalID: -2395552704592356700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 96
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640828a9aeb68e1a0800000000000000
+      internalID: -6780050583647518650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_21
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 96
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bec56a2b2858fc00800000000000000
+      internalID: 934593865097531057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 96
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b9425d8083c0560800000000000000
+      internalID: 7281256308138089295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 96
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a77f50ed133cbd60800000000000000
+      internalID: 7907251249167169444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 64
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d049f1ae9ab485c0800000000000000
+      internalID: -4214038160826875689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 64
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c08a5f5045bd82a0800000000000000
+      internalID: -6733526579766722366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 64
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a4f270ad5048aa0800000000000000
+      internalID: -6159791956354446828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 64
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8d452530c8bf8f0800000000000000
+      internalID: -505656587254966063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 32
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ddf2d5e2e24fbc0800000000000000
+      internalID: -3750321813025989341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_29
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 32
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c7107078d23dcf0800000000000000
+      internalID: -228789098104390547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd552aa1a40037c60800000000000000
+      internalID: 7814590096692368859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8da3e0f683a3df00800000000000000
+      internalID: 1140434930617265547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58944266bb72dd6a0800000000000000
+      internalID: -6422933807734437499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huskie_33
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b52de8e303f4a40800000000000000
+      internalID: 5354551527209065293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
