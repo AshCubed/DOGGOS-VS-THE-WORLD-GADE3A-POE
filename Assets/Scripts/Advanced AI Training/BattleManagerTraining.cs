@@ -293,7 +293,7 @@ public class BattleManagerTraining : MonoBehaviour
                 }
             }
             if (node.counterItem && node.counterItem.itemType == ItemScritpable.ItemType.HealingItem && 
-                check == node.currentEncounterHealth.Count)
+                check != node.currentEncounterHealth.Count)
             {
                 threatLevel.Add(1);
             }
@@ -353,7 +353,7 @@ public class BattleManagerTraining : MonoBehaviour
     {
         foreach (var node in trainingNodes)
         {
-            if (node.weight >= 3)
+            if (node.weight >= 4)
             {
                 List<Nodes> tempSavedNodes = savedNodes;
                 List<Nodes> toCheck = new List<Nodes>();
@@ -361,37 +361,39 @@ public class BattleManagerTraining : MonoBehaviour
                 /*Nodes tempWeightCheck = new Nodes();
                 tempWeightCheck = node;*/
 
-                int tempWeightCheck = node.weight;
+                Nodes tempWeightCheckNode = node;
                 
                 if (node.counterAttack != null)
                 {
-                    toCheck = tempSavedNodes.FindAll
-                        (x => (x.counterAttack = node.counterAttack) && (x.playerUsedAttack == node.playerUsedAttack));
+                    toCheck = tempSavedNodes.FindAll(x => (x.counterAttack == node.counterAttack));
+                    toCheck = toCheck.FindAll(x => x.playerUsedAttack == node.playerUsedAttack);
                 }
-                else if (node.counterItem != null)
+                else //if (node.counterItem != null)
                 {
-                    toCheck = tempSavedNodes.FindAll
-                        (x => (x.counterItem = node.counterItem) && (x.playerUsedItem == node.playerUsedItem));
+                    toCheck = tempSavedNodes.FindAll(x => (x.counterItem == node.counterItem));
+                    toCheck = toCheck.FindAll(x => x.playerUsedItem == node.playerUsedItem);
                 }
                 
                 if (toCheck.Count != 0)
                 {
                     foreach (var variable in toCheck)
                     {
-                        if (variable.weight > tempWeightCheck)
+                        if (variable.weight > tempWeightCheckNode.weight)
                         {
-                            tempWeightCheck = variable.weight;
+                            tempWeightCheckNode = variable;
+                            tempSavedNodes.Remove(variable);
                         }
                     }
 
-                    node.weight = tempWeightCheck;
+                    //node.weight = tempWeightCheckNode;
+                    
 
                     foreach (var var in toCheck)
                     {
                         tempSavedNodes.Remove(var);
                     }
                     
-                    tempSavedNodes.Add(node);
+                    tempSavedNodes.Add(tempWeightCheckNode);
                     savedNodes = tempSavedNodes;
                 }
                 else
