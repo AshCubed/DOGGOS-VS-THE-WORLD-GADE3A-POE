@@ -362,6 +362,7 @@ public class BattleManagerTraining : MonoBehaviour
                 tempWeightCheck = node;*/
 
                 int tempWeightCheck = node.weight;
+                
                 if (node.counterAttack != null)
                 {
                     toCheck = tempSavedNodes.FindAll
