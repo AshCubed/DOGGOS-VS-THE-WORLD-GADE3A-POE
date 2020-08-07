@@ -755,18 +755,12 @@ public class TrainingEncounter
             {
                 case 0:
                     node.counterAttack = flyTo;
-                    if (node.counterItem)
-                    {
-                        node.counterItem = null;
-                    }
+                    node.counterItem = null;
                     trainingParty.DealDamageToParty(numofEnemie, flyTo.damageDealt);
                     break;
                 case 1:
                     node.counterAttack = aoe;
-                    if (node.counterItem)
-                    {
-                        node.counterItem = null;
-                    }
+                    node.counterItem = null;
                     trainingParty.DealDamageToParty(-1, aoe.damageDealt);
                     foreach (var variable in trainingParty.trainingDoggos)
                     {
@@ -775,10 +769,7 @@ public class TrainingEncounter
                     break;
                 case 2:
                     node.counterItem = heal;
-                    if (node.counterAttack)
-                    {
-                        node.counterAttack = null;
-                    }
+                    node.counterAttack = null;
                     HealEncounterMember(initiative, heal.healAmount);
                     break;
             }
@@ -1016,27 +1007,18 @@ public class TrainingParty
                     case 0:
                         trainingEncounter.DealDamageToTrainingEnemy(numofEnemie,direct.damageDealt);
                         node.playerUsedAttack = direct;
-                        if (node.playerUsedItem)
-                        {
-                            node.playerUsedItem = null;
-                        }
+                        node.playerUsedItem = null;
                         attackUsedThisTurn = direct;
                         break;
                     case 1:
                         trainingEncounter.DealDamageToTrainingEnemy(numofEnemie,flyTo.damageDealt);
                         node.playerUsedAttack = flyTo;
-                        if (node.playerUsedItem)
-                        {
-                            node.playerUsedItem = null;
-                        }
+                        node.playerUsedItem = null;
                         attackUsedThisTurn = flyTo;
                         break;
                     case 2:
                         node.playerUsedAttack = aoe;
-                        if (node.playerUsedItem)
-                        {
-                            node.playerUsedItem = null;
-                        }
+                        node.playerUsedItem = null;
                         attackUsedThisTurn = aoe;
                         for (int i = 0; i < trainingEncounter.enemies.Count; i++)
                         {
@@ -1049,10 +1031,7 @@ public class TrainingParty
                     case 3:
                         posionAmnt--;
                         node.playerUsedItem = poision;
-                        if (node.playerUsedAttack)
-                        {
-                            node.playerUsedAttack = null;
-                        }
+                        node.playerUsedAttack = null;
                         itemUsedThisTurn = poision;
                         trainingEncounter.enemies[numofEnemie].debuff = poision;
                         trainingEncounter.enemies[numofEnemie].turnsRemaining = poision.amntOfTurns;
@@ -1060,10 +1039,7 @@ public class TrainingParty
                     case 4:
                         healAmnt--;
                         node.playerUsedItem = heal;
-                        if (node.playerUsedAttack)
-                        {
-                            node.playerUsedAttack = null;
-                        }
+                        node.playerUsedAttack = null;
                         itemUsedThisTurn = heal;
                         HealPartyMember(currentTrainingPartyInitiative, heal.healAmount);
                         break;

@@ -1,29 +1,20 @@
 ------
-PI Poison
-0
-CA Slap
--30
-90
--20
-30
-3
-------
-PA Slap
-1
-CA Slap
-20
-80
--10
-50
-4
-------
 PA Bite
+1
+CA Bork
+60
+60
 0
-CA Slap
-10
-70
--10
-40
+60
 3
+------
+PI Water Bottle
+1
+CA Bork
+0
+60
+0
+10
+4
 ------
 
