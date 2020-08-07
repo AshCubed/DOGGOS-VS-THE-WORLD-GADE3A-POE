@@ -42,8 +42,9 @@ public class BattleManagerTraining : MonoBehaviour
         /*currentState = TrainingBattleState.Start;
         StartCoroutine(BattleStateCheckStart());*/
         StartAgain();
-        /*FileCreation fileCreation = new FileCreation();
-        testReadFromSave = fileCreation.ReadFromSavedFile();*/
+        FileCreation fileCreation = new FileCreation();
+        fileCreation.ClearFiles();
+        savedNodes = fileCreation.ReadFromSavedFile();
     }
 
     private void StartAgain()

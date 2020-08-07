@@ -2999,7 +2999,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 99
   m_TargetDisplay: 0
 --- !u!1 &155658308
 GameObject:
@@ -40095,6 +40095,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6671798267169238406, guid: 07046259d97760643bb372f52adbcd87,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 99
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07046259d97760643bb372f52adbcd87, type: 3}
 --- !u!1 &712401152
@@ -44622,6 +44627,7 @@ MonoBehaviour:
   runPlayerInitiative: 0
   attacksScriptableInUse: {fileID: 0}
   itemScritpableInUse: {fileID: 0}
+  currentPartyInitiative: 0
   isInBattle: 0
 --- !u!1 &845216039
 GameObject:
@@ -46694,9 +46700,6 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!4 &979949985
 Transform:
   m_ObjectHideFlags: 0
@@ -49980,6 +49983,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671798267169238406, guid: 07046259d97760643bb372f52adbcd87,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 99
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07046259d97760643bb372f52adbcd87, type: 3}
@@ -56354,8 +56362,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pageDifficultyDropDown: {fileID: 1846397676}
   pageTypeOfPlayDropDown: {fileID: 2082410557}
+  pageTypeOfAiDropDown: {fileID: 0}
+  warningTxt: {fileID: 0}
+  rawImage: {fileID: 0}
   difficultyState: 0
   typeOfPlay: 0
+  typeOfAi: 0
 --- !u!4 &1262047587
 Transform:
   m_ObjectHideFlags: 0
@@ -65848,7 +65860,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -65865,7 +65877,7 @@ MonoBehaviour:
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
-  m_textAlignment: 257
+  m_textAlignment: 65535
   m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -72028,7 +72040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1921136096
 Animator:
   serializedVersion: 3

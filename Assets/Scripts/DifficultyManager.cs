@@ -10,6 +10,8 @@ public class DifficultyManager : MonoBehaviour
     public Dropdown pageDifficultyDropDown;
     public Dropdown pageTypeOfPlayDropDown;
     public Dropdown pageTypeOfAiDropDown;
+    public GameObject warningTxt;
+    public GameObject rawImage;
     
     public enum DifficultyState{Easy, Medium, Hard};
     public DifficultyState difficultyState;
@@ -30,6 +32,7 @@ public class DifficultyManager : MonoBehaviour
         {
             this.difficultyState = FindObjectOfType<DifficultyManager>().difficultyState;
             this.typeOfPlay = FindObjectOfType<DifficultyManager>().typeOfPlay;
+            this.typeOfAi = FindObjectOfType<DifficultyManager>().typeOfAi;
             Destroy(FindObjectOfType<DifficultyManager>().gameObject);
             return;
         }
@@ -176,9 +179,17 @@ public class DifficultyManager : MonoBehaviour
         {
             case 0:
                 typeOfAi = TypeOfAi.NormalAi;
+                warningTxt.SetActive(false);
+                rawImage.SetActive(false);
+                pageDifficultyDropDown.interactable = true;
+                pageTypeOfPlayDropDown.interactable = true;
                 break;
             case 1:
                 typeOfAi = TypeOfAi.AdvancedAi;
+                warningTxt.SetActive(true);
+                rawImage.SetActive(true);
+                pageDifficultyDropDown.interactable = false;
+                pageTypeOfPlayDropDown.interactable = false;
                 break;
         }
     }

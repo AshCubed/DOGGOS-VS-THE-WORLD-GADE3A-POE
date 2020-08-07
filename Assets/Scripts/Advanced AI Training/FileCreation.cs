@@ -22,6 +22,18 @@ public class FileCreation
     private string trainingNodesPath = Application.dataPath + "/Resources/trainingNodes.txt";
     private string savedNodesPath = Application.dataPath + "/Resources/savedNodes.txt";
 
+    public void ClearFiles()
+    {
+        if (File.Exists(trainingNodesPath))
+        {
+            File.WriteAllText(trainingNodesPath, "");
+        }
+        /*if (File.Exists(savedNodesPath))
+        {
+            File.WriteAllText(savedNodesPath, "");
+        }*/
+    }
+
     public void WriteToTrainingFile()
     {
         //trainingNodesWrite
@@ -58,7 +70,7 @@ public class FileCreation
              {
                  if (stringToConvert[i].Substring(0,1) == "-")
                  {
-                     if (stringToConvert[i + 1] != "")
+                     if (stringToConvert[i + 1] != "" || stringToConvert[i + 1] != " " || stringToConvert[i + 1] != null)
                      {
                          Nodes node = new Nodes();
                          Enemy enemy = new Enemy();
@@ -110,6 +122,7 @@ public class FileCreation
                          node.weight = int.Parse(stringToConvert[weight]);
                      
                          savedTrainingNodes.Add(node);
+                         i = i + 8;
                      }
                  }
              }
@@ -124,11 +137,12 @@ public class FileCreation
     
     private string ListOfNodesToString(List<Nodes> nodeses)
     {
-        string beeep = "------" + "\n";
+        string beeep = "------";
         if (nodeses.Count > 0)
         {
             for (int i = 0; i < nodeses.Count; i++)
             {
+                beeep += "\n";
                 if (nodeses[i].playerUsedAttack)
                 {
                     beeep += "PA " + nodeses[i].playerUsedAttack.attackName + "\n";
@@ -157,10 +171,10 @@ public class FileCreation
                 }
 
                 beeep += nodeses[i].weight + "\n";
-                beeep += "------" + "\n";
+                beeep += "------";
             }
         }
-        beeep += "\n";
+        //beeep += "\n";
         return beeep;
     }
 }

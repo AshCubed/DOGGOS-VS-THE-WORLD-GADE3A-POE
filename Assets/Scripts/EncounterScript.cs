@@ -250,14 +250,27 @@ public class EncounterScript : MonoBehaviour
             Nodes useThisNodeForAction = new Nodes();
             if (savedNodes.Count != 0)
             {
-                if (BV2.currentPartyInitiative == -1)
+                List<int> encounterSavedHealths = new List<int>();
+                foreach (var variable in savedNodes)
+                {
+                    foreach (var variable2 in variable.currentEncounterHealth)
+                    {
+                        encounterSavedHealths.Add(variable2);
+                    }
+                }
+                var closests = FindClosest(encounterSavedHealths, this.Enemies[currentEncounterInitiative].currentHealth);
+                useThisNodeForAction = savedNodes.Find(x => x.currentEncounterHealth[currentEncounterInitiative] 
+                                                            == (int) closests);
+                Debug.Log("CURRENT NODE FOR ACTION: " + useThisNodeForAction);
+                
+                /*if (BV2.currentPartyInitiative == -1)
                 {
                     List<int> playerSavedHealth = new List<int>();
                     foreach (var variable in savedNodes)
                     {
                         playerSavedHealth.Add(variable.currentPlayerHealth);  
                     }
-                    var closest = FindClosest(playerSavedHealth, currentParty.player.currentHealth);
+                    var closest = FindClosest(playerSavedHealth, currentParty.player.currentHealth - 10);
                     useThisNodeForAction = savedNodes.Find(x => x.currentPlayerHealth == (int) closest);
                 }
                 else
@@ -281,7 +294,7 @@ public class EncounterScript : MonoBehaviour
                             }
                         }
                     }
-                }
+                }*/
             }
             if (useThisNodeForAction != null)
             {
@@ -292,6 +305,9 @@ public class EncounterScript : MonoBehaviour
 
     private void AdvancedAiCommands(Nodes nodeToUse)
     {
+        Debug.Log("AdvanceAI TERMS");
+        Debug.Log(nodeToUse.counterAttack);
+        Debug.Log(nodeToUse.counterItem);
         if (nodeToUse.counterAttack)
         {
             switch (nodeToUse.counterAttack.attackType)
@@ -301,7 +317,8 @@ public class EncounterScript : MonoBehaviour
                 case AttacksScriptable.AttackType.FlyTo:
                     if (BV2.currentPartyInitiative == -1)
                     {
-                        Debug.Log("ENEMY ATTACK: PLAYER");
+                        Debug.Log(string.Format("ENEMY ATTACK: " + "<color=green>{0}</color>", "Player"));
+
                         //direact attack player
                         Vector2 spawnPoint = new Vector2(Enemies[currentEncounterInitiative].currentBattlePos.transform.position.x - 0.3f, 
                             Enemies[currentEncounterInitiative].currentBattlePos.transform.position.y);
@@ -343,7 +360,7 @@ public class EncounterScript : MonoBehaviour
                     break;
             }
         }
-        else if (nodeToUse.counterItem)
+        else //if (nodeToUse.counterItem)
         {
             AiState = EnemyAIState.Heal;
             CheckAIState(currentParty);
@@ -466,7 +483,7 @@ public class EncounterScript : MonoBehaviour
 
     private void EncounterHeal()
     {
-        if (DM.typeOfPlay == DifficultyManager.TypeOfPlay.SinglePlayer)
+        if (DM.typeOfPlay == DifficultyManager.TypeOfPlay.SinglePlayer && DM.typeOfAi == DifficultyManager.TypeOfAi.NormalAi)
         {
             if (Enemies[currentEncounterInitiative].currentHealth < (DM.DifficultyHealthNumCheck(Enemies[currentEncounterInitiative].maxHealth)))
             {
