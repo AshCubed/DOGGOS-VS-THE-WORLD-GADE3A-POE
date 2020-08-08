@@ -62,3 +62,12 @@ CI Water Bottle
 100
 4
 ------
+PA Slap
+0
+CA Bork
+60
+80
+100
+30
+4
+------
