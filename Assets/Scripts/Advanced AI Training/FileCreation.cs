@@ -19,8 +19,8 @@ public class FileCreation
     private List<Nodes> trainingNodes;
     private List<Nodes> savedNodes;
 
-    private string trainingNodesPath = Application.dataPath + "/Resources/trainingNodes.txt";
-    private string savedNodesPath = Application.dataPath + "/Resources/savedNodes.txt";
+    private string trainingNodesPath = Application.dataPath + "/trainingNodes.txt";
+    private string savedNodesPath = Application.dataPath + "/savedNodes.txt";
 
     public void ClearFiles()
     {

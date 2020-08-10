@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using System.IO;
 using UnityEngine.Serialization;
 
 public class BattleManagerV2 : MonoBehaviour
@@ -136,17 +137,24 @@ public class BattleManagerV2 : MonoBehaviour
                     }
                 }
                 yield return new WaitForSeconds(1f);
-                switch (FindObjectOfType<DifficultyManager>().typeOfPlay)
+                if (FindObjectOfType<DifficultyManager>().typeOfAi == DifficultyManager.TypeOfAi.NormalAi)
                 {
-                    case DifficultyManager.TypeOfPlay.SinglePlayer:
-                        StartCoroutine(EncounterTurn());
-                        break;
-                    case DifficultyManager.TypeOfPlay.Multiplayer:
-                        multiplayerCanvas.gameObject.SetActive(true);
-                        txtMultiEnemyName.text = currentEncounter.Enemies[currentEncounter.ReturnInitiative()]
-                            .enemyName;
-                        multiplayerAnim.SetTrigger(multiStartKeyWord);
-                        break;
+                    switch (FindObjectOfType<DifficultyManager>().typeOfPlay)
+                    {
+                        case DifficultyManager.TypeOfPlay.SinglePlayer:
+                            StartCoroutine(EncounterTurn());
+                            break;
+                        case DifficultyManager.TypeOfPlay.Multiplayer:
+                            multiplayerCanvas.gameObject.SetActive(true);
+                            txtMultiEnemyName.text = currentEncounter.Enemies[currentEncounter.ReturnInitiative()]
+                                .enemyName;
+                            multiplayerAnim.SetTrigger(multiStartKeyWord);
+                            break;
+                    }       
+                }
+                else
+                {
+                    StartCoroutine(EncounterTurn());
                 }
                 break;
             case BattleState.Won:

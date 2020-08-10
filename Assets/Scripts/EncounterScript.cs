@@ -252,10 +252,7 @@ public class EncounterScript : MonoBehaviour
                 List<int> encounterSavedHealths = new List<int>();
                 foreach (var variable in savedNodes)
                 {
-                    foreach (var variable2 in variable.currentEncounterHealth)
-                    {
-                        encounterSavedHealths.Add(variable2);
-                    }
+                    encounterSavedHealths.Add(variable.currentEncounterHealth[currentEncounterInitiative]);
                 }
                 var closests = FindClosest(encounterSavedHealths, this.Enemies[currentEncounterInitiative].currentHealth);
                 Debug.Log("closests: "+closests);
@@ -312,28 +309,22 @@ public class EncounterScript : MonoBehaviour
         {
             if (nodeToUse.counterAttack.attackType == AttacksScriptable.AttackType.FlyTo)
             {
-                Debug.Log("GOT HERE");
-                if (BV2.currentPartyInitiative == -1)
+                Debug.Log("GOT HERE part 3 electirc boogaloo 2");
+                List<Doggo> customDoggoList = new List<Doggo>();
+                foreach (Doggo variable in currentParty.doggos)
                 {
-                    Debug.Log("GOT HERE part 2 electirc boogaloo");
-                    Debug.Log(string.Format("ENEMY ATTACK: " + "<color=green>{0}</color>", "Player"));
-
-                    //direact attack player
-                    Vector2 spawnPoint = new Vector2(Enemies[currentEncounterInitiative].currentBattlePos.transform.position.x - 0.3f, 
-                        Enemies[currentEncounterInitiative].currentBattlePos.transform.position.y);
-                    GameObject newGo = Instantiate(nodeToUse.counterAttack.attackSprite, spawnPoint, Quaternion.identity);
-                    newGo.transform.localRotation = Quaternion.Euler(0, 0, 180);
-                    newGo.GetComponent<AttackAnimationScript>().SetVariables(true,false, -1, 
-                        nodeToUse.counterAttack.damageDealt, nodeToUse.counterAttack.attackHitSprite, null, currentParty);
-                    newGo.GetComponent<AttackAnimationScript>().MoveTowardsTarget(currentParty.player.transform.position);
+                    if (variable.doggoInUse && variable.isDead == false)
+                    {
+                        customDoggoList.Add(variable);
+                    }
                 }
-                else
+                
+                if (currentParty.doggos.Count != 0 && customDoggoList != null && customDoggoList.Count != 0)
                 {
-                    List<Doggo> customDoggoList = new List<Doggo>();
                     Doggo doggoToAttack = customDoggoList.Find(z => z.currentHealth == 
                                                                     (customDoggoList.Max(x => x.currentHealth)));
                     int actualListNum = currentParty.doggos.FindIndex(x => x == doggoToAttack);
-                    if (currentParty.doggos.Count != 0 && customDoggoList != null && customDoggoList.Count != 0)
+                    //if (currentParty.doggos.Count != 0 && customDoggoList != null && customDoggoList.Count != 0)
                     {
                         //direact attack doggo
                         Debug.Log(string.Format("ENEMY ATTACK: " + "<color=green>{0}</color>", currentParty.doggos[actualListNum].doggoName));
@@ -347,6 +338,21 @@ public class EncounterScript : MonoBehaviour
                         newGo.GetComponent<AttackAnimationScript>()
                             .MoveTowardsTarget(currentParty.doggos[actualListNum].currentBattlePos.transform.position);
                     }
+                }
+                else
+                {
+                    Debug.Log("GOT HERE part 2 electirc boogaloo");
+                    Debug.Log(string.Format("ENEMY ATTACK: " + "<color=green>{0}</color>", "Player"));
+
+                    //direact attack player
+                    Vector2 spawnPoint = new Vector2(Enemies[currentEncounterInitiative].currentBattlePos.transform.position.x - 0.3f, 
+                        Enemies[currentEncounterInitiative].currentBattlePos.transform.position.y);
+                    GameObject newGo = Instantiate(nodeToUse.counterAttack.attackSprite, spawnPoint, Quaternion.identity);
+                    newGo.transform.localRotation = Quaternion.Euler(0, 0, 180);
+                    newGo.GetComponent<AttackAnimationScript>().SetVariables(true,false, -1, 
+                        nodeToUse.counterAttack.damageDealt, nodeToUse.counterAttack.attackHitSprite, null, currentParty);
+                    newGo.GetComponent<AttackAnimationScript>().MoveTowardsTarget(currentParty.player.transform.position);
+
                 }
             }
             else

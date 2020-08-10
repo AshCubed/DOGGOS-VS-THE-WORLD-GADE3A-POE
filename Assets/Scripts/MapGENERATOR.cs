@@ -82,7 +82,7 @@ public class MapGENERATOR : MonoBehaviour
         Player currentParty = FindObjectOfType<Player>();
         bool spawn1 = false;
         bool spawn2 = false;
-        bool spawn3 = false;
+        //bool spawn3 = false;
 
         switch (currentParty.playerCurrentLevel)
         {
@@ -99,7 +99,7 @@ public class MapGENERATOR : MonoBehaviour
                     case 2:
                         spawn1 = true;
                         spawn2 = true;
-                        spawn3 = true;
+                        //spawn3 = true;
                         break;
                 }
                 break;
@@ -114,7 +114,7 @@ public class MapGENERATOR : MonoBehaviour
                         break;
                     case 2:
                         spawn2 = true;
-                        spawn3 = true;
+                        //spawn3 = true;
                         break;
                 }
                 break;
@@ -125,10 +125,11 @@ public class MapGENERATOR : MonoBehaviour
                         spawn2 = true;
                         break;
                     case 1:
-                        spawn3 = true;
+                        spawn2 = true;
+                        //spawn3 = true;
                         break;
                     case 2:
-                        spawn3 = true;
+                        //spawn3 = true;
                         break;
                 }
                 break;
@@ -139,10 +140,12 @@ public class MapGENERATOR : MonoBehaviour
                         spawn2 = true;
                         break;
                     case 1:
-                        spawn3 = true;
+                        spawn2 = true;
+                        //spawn3 = true;
                         break;
                     case 2:
-                        spawn3 = true;
+                        spawn2 = true;
+                        //spawn3 = true;
                         break;
                 }
                 break;
@@ -175,13 +178,13 @@ public class MapGENERATOR : MonoBehaviour
                             newGo.transform.parent = spawnPoints[i].transform.parent;
                         }
                         break;
-                    case 3:
-                        if (spawn2 == true)
+                    /*case 3:
+                        if (spawn3 == true)
                         {
                             GameObject newGo = Instantiate(enemies3, spawnPoints[i].transform.position, Quaternion.identity);
                             newGo.transform.parent = spawnPoints[i].transform.parent;
                         }
-                        break;
+                        break;*/
                 }
             }
         }

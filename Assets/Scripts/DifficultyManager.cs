@@ -68,11 +68,11 @@ public class DifficultyManager : MonoBehaviour
         switch (difficultyState)
         {
             case DifficultyState.Easy:
-                return Mathf.RoundToInt((float)0.75 * maxHealth);
+                return Mathf.RoundToInt((float)0.25 * maxHealth);
             case DifficultyState.Medium:
                 return Mathf.RoundToInt((float)0.50 * maxHealth);
             case DifficultyState.Hard:
-                return Mathf.RoundToInt((float)0.25 * maxHealth);
+                return Mathf.RoundToInt((float)0.75 * maxHealth);
             default:
                 break;
         }
@@ -165,10 +165,10 @@ public class DifficultyManager : MonoBehaviour
         switch (typeOfAi)
         {
             case TypeOfAi.NormalAi:
-                pageTypeOfPlayDropDown.value = 0;
+                pageTypeOfAiDropDown.value = 0;
                 break;
             case TypeOfAi.AdvancedAi:
-                pageTypeOfPlayDropDown.value = 1;
+                pageTypeOfAiDropDown.value = 1;
                 break;
         }
     }
@@ -179,15 +179,21 @@ public class DifficultyManager : MonoBehaviour
         {
             case 0:
                 typeOfAi = TypeOfAi.NormalAi;
-                warningTxt.SetActive(false);
-                rawImage.SetActive(false);
+                if (warningTxt && rawImage)
+                {
+                    warningTxt.SetActive(false);
+                    rawImage.SetActive(false);
+                }
                 pageDifficultyDropDown.interactable = true;
                 pageTypeOfPlayDropDown.interactable = true;
                 break;
             case 1:
                 typeOfAi = TypeOfAi.AdvancedAi;
-                warningTxt.SetActive(true);
-                rawImage.SetActive(true);
+                if (warningTxt && rawImage)
+                {
+                    warningTxt.SetActive(true);
+                    rawImage.SetActive(true);
+                }
                 pageDifficultyDropDown.interactable = false;
                 pageTypeOfPlayDropDown.interactable = false;
                 break;
