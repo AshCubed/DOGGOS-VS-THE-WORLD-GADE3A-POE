@@ -1,0 +1,73 @@
+------
+PA Bite
+0
+CA Bork
+60
+80
+0
+40
+4
+------
+PA Slap
+0
+CA Bork
+60
+80
+-20
+30
+4
+------
+PA Bomb
+1
+CA Bork
+60
+60
+-20
+40
+4
+------
+PI Water Bottle
+0
+CA Bork
+70
+70
+-10
+20
+4
+------
+PI Water Bottle
+0
+CA Slap
+70
+70
+-10
+30
+4
+------
+PI Poison
+1
+CI Water Bottle
+70
+70
+10
+30
+5
+------
+PA Bomb
+1
+CA Bork
+80
+100
+40
+100
+4
+------
+PA Slap
+0
+CA Bork
+60
+80
+100
+30
+4
+------
